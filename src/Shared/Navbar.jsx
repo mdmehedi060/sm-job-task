@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-14 bg-gradient-to-r from-[#591BFF] to-[#ab94eb]  w-[1260px] mx-auto rounded-3xl mt-7 relative">
+    <div className="flex justify-between px-14 bg-gradient-to-r from-[#591BFF] to-[#ab94eb]  w-[1160px] mx-auto rounded-3xl mt-7 relative">
       <div className="w-6 h-3 rounded-br-full rounded-bl-full bg-white absolute top-0 left-[180px]"></div>
       <div className="border-r-2 border-dashed border-white">
         <img

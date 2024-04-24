@@ -8,9 +8,9 @@ const Footer = () => {
     <div className="bg-gradient-to-br my-10 from-[#591BFF] to-[#ab94eb]">
       <div className="w-[1160px] mx-auto text-white py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 space-x-28 mb-10">
-          <div>
+          <div className="ml-4">
             <img
-              className="w-[180px] mb-6"
+              className="w-[160px] mb-6"
               src="https://i.ibb.co/n7XGpmk/Event-Host.png"
               alt=""
             />
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="flex justify-between mt-6">
-          <div className="flex justify-center items-center space-x-2 ">
+          <div className="flex justify-center items-center space-x-2 ml-4">
             <p>Pay With</p>
             <img src="https://i.ibb.co/jWN7TWP/image-10bkash.png" alt="" />
             <img
@@ -55,7 +55,7 @@ const Footer = () => {
             />
             <img src="https://i.ibb.co/3fD2sY5/Layer-1-1.png" alt="" />
           </div>
-          <div>
+          <div className="mr-4">
             <p>©2023 TickHost & UVTR. All right reserved</p>
           </div>
         </div>
